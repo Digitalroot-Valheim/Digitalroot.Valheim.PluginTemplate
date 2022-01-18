@@ -3,18 +3,16 @@ using Digitalroot.Valheim.Common;
 using HarmonyLib;
 using JetBrains.Annotations;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using UnityEngine;
 
 namespace Digitalroot.Valheim.PluginTemplate
 {
   [BepInPlugin(Guid, Name, Version)]
-  public class Main : BaseUnityPlugin, ITraceableLogging
+  [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
+  public partial class Main : BaseUnityPlugin, ITraceableLogging
   {
-    public const string Version = "1.0.0";
-    public const string Name = "Digitalroot Plug-in Template";
-    public const string Guid = "digitalroot.mods.PluginTemplate";
-    public const string Namespace = "Digitalroot.Valheim" + nameof(PluginTemplate);
     private Harmony _harmony;
     public static Main Instance;
 

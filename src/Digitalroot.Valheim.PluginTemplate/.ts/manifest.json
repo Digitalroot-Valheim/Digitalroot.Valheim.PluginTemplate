@@ -5,7 +5,7 @@
   "description": "%DESC%",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1600",
+    "denikson-BepInExPack_Valheim-5.4.1700",
     "ValheimModding-Jotunn-2.3.7"
   ],
   "website_url": "%GITHUB_URL%"
