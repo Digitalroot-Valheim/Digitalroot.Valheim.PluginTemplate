@@ -5,8 +5,6 @@ Manifest V1 (Thunderstore) + author field
 https://github.com/ebkr/r2modmanPlus/wiki/Installing-mods-locally#manifest-v1-thunderstore--author-field
 
 
-Move me to [gitrepo]/doc
-
 # Summary
 This is a port of <a href="https://www.nexusmods.com/valheim/mods/0000">ModTemplate</a> to JVL   
 PR: https://github.com/Atokal/AtosArrows/pull/3   
@@ -48,6 +46,8 @@ New Items:
 - <a href="https://github.com/Atokal" target="_blank">Atokal</a>
 
 <p align="center">
-<b>Digitalroot can be found in the Odin Plus Team Discord</b><br />
+<b>Digitalroot can be found in the following Discords</b><br />
+  <a href="https://discord.gg/Xh3UHcDC" target="_blank"><img src="https://digitalroot.net/img/jvldisc.png"></a>
+  <a href="https://discord.gg/randyknappmods" target="_blank"><img src="https://digitalroot.net/img/epiclootdisc.png"></a>
   <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
 </p>

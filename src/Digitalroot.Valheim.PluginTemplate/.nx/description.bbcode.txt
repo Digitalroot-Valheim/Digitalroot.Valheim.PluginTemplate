@@ -31,5 +31,8 @@ License
 [b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
 
 
-[center][size=3][b][color=#00ffff]Digitalroot can be found in the Odin Plus Team Discord[/color][/b][/size]
-[url=https://discord.gg/mbkPcvu9ax][img]https://digitalroot.net/img/odinplusdisc.png[/img][/url]﻿[/center]
+[center][size=3][b][color=#00ffff]Digitalroot can be found in the following Discords[/color][/b][/size]
+[url=https://discord.gg/Xh3UHcDC][img]https://digitalroot.net/img/jvldisc.png[/img][/url]﻿
+[url=https://discord.gg/randyknappmods][img]https://digitalroot.net/img/epiclootdisc.png[/img][/url]﻿
+[url=https://discord.gg/mbkPcvu9ax][img]https://digitalroot.net/img/odinplusdisc.png[/img][/url]﻿
+[/center]
