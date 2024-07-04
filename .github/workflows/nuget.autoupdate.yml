@@ -15,6 +15,7 @@ env:
 
 jobs:
   call-workflow-nuget-autoupdate:
+    if: ${{ false }} # disable for now
     uses: Digitalroot-Valheim/.github/.github/workflows/nuget.autoupdate.yml@main
     secrets:
       github-pat: ${{ secrets.AUTOMATED_DEPENDENCY_UPDATES_TOKEN }}
