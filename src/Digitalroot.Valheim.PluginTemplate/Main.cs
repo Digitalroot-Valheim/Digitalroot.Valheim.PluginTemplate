@@ -66,12 +66,15 @@ namespace Digitalroot.Valheim.PluginTemplate
     {
       try
       {
+        Log.Trace(Main.Instance, $"{Main.Namespace}.{MethodBase.GetCurrentMethod()?.DeclaringType?.Name}.{MethodBase.GetCurrentMethod()?.Name}");
         throw new NotImplementedException();
       }
       catch (Exception e)
       {
-        Log.Error(Instance, e);
+        Log.Error(Main.Instance, e);
       }
+
+      // return $"Error: {MethodBase.GetCurrentMethod()?.Name}";
     }
 
     public void OnZNetAwake(ref ZNet zNet)
