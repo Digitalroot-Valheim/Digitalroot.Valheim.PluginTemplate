@@ -1,4 +1,4 @@
-name: Automated NuGet Dependency Updates
+name: CI/CD
 
 concurrency: ci-${{ github.ref }}
 
@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
   schedule:
-  - cron: "0/15 16-23,0-9 * * *"
+#  - cron: "0/15 16-23,0-9 * * *" # “At every 15th minute from 0 through 59 past every hour from 16 through 23 and every hour from 0 through 9.”
+  - cron: "15 16-23,0-9 * * *" # “At minute 15 past every hour from 16 through 23 and every hour from 0 through 9.”
 
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
